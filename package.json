@@ -1,0 +1,12 @@
+{
+  "name": "campusconnect",
+  "private": true,
+  "version": "1.1.0",
+  "description": "Six-table university event management demo with smart venue planning",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.cjs",
+    "check": "node --check server.js && node --check public/app.js && npm test"
+  }
+}

@@ -1,0 +1,24 @@
+CampusConnect — 3-Minute Viva Demo
+==================================
+
+1) Explain the six tables:
+Users, Societies, Events, Venues, Registrations, Bookings.
+
+2) Explain the flow:
+Society creates Event -> Student/User registers through Registrations -> Venue is assigned through Bookings.
+
+3) Explain M:N:
+Users and Events are many-to-many in the business view. Registrations resolves it into two 1:N relations.
+Events and Venues are connected through Bookings so booking date/time/status can be stored separately.
+
+4) Show live CRUD:
+Admin/Organizer -> create Society -> create Event -> create Venue -> create Booking -> edit one record.
+
+5) Show database rule:
+Try booking the same venue for an overlapping time. The backend rejects it.
+
+6) Show Student:
+Login as student and register for a Published event. Duplicate registration is prevented.
+
+7) Show Reports:
+Explain that reports are fetched from live SQL joins and GROUP BY queries, not hard-coded frontend numbers.

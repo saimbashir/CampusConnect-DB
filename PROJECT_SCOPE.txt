@@ -1,0 +1,25 @@
+CampusConnect — Final Viva Project Scope
+
+Database tables (exactly six):
+1. Users
+2. Societies
+3. Events
+4. Venues
+5. Registrations
+6. Bookings
+
+Implemented scope:
+- Sign up, login, logout, session authentication
+- Role-aware interface: Student, Organizer, Admin
+- CRUD operations for the approved tables
+- Event registration / cancellation
+- Venue booking with overlap conflict detection and capacity validation
+- Dashboard and SQL-based reports
+- Fully connected frontend + backend + SQLite database
+
+Not added intentionally:
+- AI features
+- Payments
+- Notifications
+- QR attendance
+- Extra business tables
